@@ -44,3 +44,7 @@ of each component file in `components/` to update copy, dates, or links.
 
 Update `repoName` in `next.config.mjs` and `basePath` in `lib/basePath.ts`
 to match the new repo name exactly (case-sensitive, with the leading `/`).
+
+
+## Update later
+include picture of project
