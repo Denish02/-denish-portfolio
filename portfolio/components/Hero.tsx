@@ -47,7 +47,7 @@ export default function Hero() {
           <div className="relative mx-auto md:mx-0">
             <div className="relative w-56 h-56 sm:w-64 sm:h-64 md:w-full md:h-auto md:aspect-square rounded-full overflow-hidden border border-white/15">
               <Image
-                src="/images/profile.jpg"
+                src={`${basePath}/images/profile.jpg`}
                 alt="Portrait of Mohamad Denish Jumad"
                 fill
                 sizes="(min-width: 768px) 320px, 256px"
