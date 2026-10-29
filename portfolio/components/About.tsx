@@ -1,7 +1,7 @@
 import Reveal from "./Reveal";
 
 const NOW = [
-  { role: "B.CS (Hons.) Software Engineering", org: "Universiti Malaysia Sabah", status: "Graduating 2026" },
+  { role: "B.CS (Hons.) Software Engineering", org: "Universiti Malaysia Sabah", status: "Graduating Nov 2026" },
   { role: "Freelance Facilitator", org: "Smart Native Maker", status: "Since May 2025" },
   { role: "Volunteer", org: "Petrosains Sdn Bhd", status: "Since Apr 2025" },
 ];
@@ -17,12 +17,13 @@ export default function About() {
               Systems thinking, applied to real institutions.
             </h2>
             <p className="mt-6 text-[17px] leading-relaxed text-fog max-w-[52ch]">
-              My work sits at the intersection of full-stack development and
-              system analysis — designing ERDs and architecture before writing a
-              line of backend code, then implementing authentication, role-based
-              access, and multilingual interfaces on top of it. I've carried that
-              across government and enterprise digital systems: MyJetti Semporna,
-              Rural Tourism, RUTEC, ST Care Hub, DOFi, and IDS.
+              I work across application development, databases, software testing
+              and user support. During 24 weeks of industrial training at ST Datablu,
+              I contributed to tourism, government and enterprise systems, from
+              backend APIs and frontend features to UAT documentation, data
+              validation and technical handovers. My experience also includes
+              requirement gathering, ERD design, UI prototyping and multilingual
+              interfaces, working with developers, data analysts and clients.
             </p>
             <p className="mt-4 text-[17px] leading-relaxed text-fog max-w-[52ch]">
               Outside client work, I teach — running workshops on app development
@@ -39,7 +40,7 @@ export default function About() {
                 {NOW.map((item) => (
                   <li
                     key={item.role}
-                    className="flex items-baseline justify-between gap-4 border-b border-hairline pb-5"
+                    className="flex flex-wrap items-baseline justify-between gap-3 border-b border-hairline pb-5"
                   >
                     <div>
                       <p className="text-[16px] text-ink font-medium">{item.role}</p>

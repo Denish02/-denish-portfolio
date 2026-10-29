@@ -34,10 +34,14 @@ from Claude for the full walkthrough.
   any hand-written asset link (like the résumé download) so it resolves
   correctly in production. `next/image` handles this automatically.
 - `public/images/profile.jpg` — profile photo
-- `public/resume.pdf` — downloadable résumé (linked from the hero section)
+- `public/Mohamad_Denish_Jumad_Resume.pdf` - current recruiter resume linked from the hero
+- `public/resume.pdf` - same current PDF retained for existing links
+- `lib/projects.ts` - nine project entries, technologies, images and demo links
+- `public/images/projects/` - project images
+- `components/ProjectGallery.tsx` - responsive gallery with an enlarged image viewer
 - `.github/workflows/deploy.yml` — build + deploy automation
 
-All content is sourced directly from the résumé — edit the arrays at the top
+Content combines owner-supplied project details with the résumé — edit the arrays at the top
 of each component file in `components/` to update copy, dates, or links.
 
 ## If you ever rename the repo
@@ -47,4 +51,14 @@ to match the new repo name exactly (case-sensitive, with the leading `/`).
 
 
 ## Update later
-include picture of project
+Project data lives in `lib/projects.ts`. Place screenshots in `public/images/projects/`
+and add their filenames and descriptive alt text to the matching project's `images` array.
+The gallery adds the GitHub Pages base path automatically. Only provided demo links are shown.
+
+Fifteen supplied images are included across DevSecOps, EcoBook, SKILL UP, Kokol Mamahill,
+Employee Leave, Hijab Tudung and Smart Fire Alarm galleries. The Strangers Encounter
+entries use their provided YouTube demos. The previously shared Kokol cart screenshot
+can be added when its original file is available.
+
+The recruiter resume is a renamed copy of the supplied GEES 2026 IT PDF. Replace both
+public PDFs together when updating it.

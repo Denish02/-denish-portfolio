@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="grid md:grid-cols-[1.3fr_0.7fr] gap-16 items-center">
           <div>
             <p className="font-mono text-[13px] text-accent tracking-tight mb-6">
-              Kota Kinabalu, Sabah — B.CS (Hons.) Software Engineering, 2026
+              Kota Kinabalu, Sabah — B.CS (Hons.) Software Engineering, November 2026
             </p>
             <h1 className="font-display font-semibold tracking-tightest text-[44px] leading-[1.05] sm:text-[58px] md:text-[68px]">
               I build full-stack
@@ -21,10 +21,10 @@ export default function Hero() {
               organisations run on.
             </h1>
             <p className="mt-8 max-w-[46ch] text-[17px] md:text-[19px] leading-relaxed text-white/60">
-              Software Engineering student who has shipped backend APIs, role-based
-              access control, and admin systems for government and enterprise
-              platforms — including MyJetti Semporna, RUTEC, and ST Care Hub —
-              during a full-stack internship at ST Datablu.
+              Software Engineering degree candidate graduating in November 2026.
+              Completed 24 weeks of industrial training at ST Datablu, contributing
+              to application features, database work, software testing and user
+              training for tourism, government and enterprise systems.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-4">
               <a
@@ -34,7 +34,8 @@ export default function Hero() {
                 View my work
               </a>
               <a
-                href={`${basePath}/resume.pdf`}
+                href={`${basePath}/Mohamad_Denish_Jumad_Resume.pdf`}
+                download="Mohamad_Denish_Jumad_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 border border-white/25 text-white text-[15px] rounded-full px-6 py-3 hover:border-white/60 hover:bg-white/5 transition-colors"
@@ -57,7 +58,7 @@ export default function Hero() {
               />
             </div>
             <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 md:left-auto md:right-2 md:translate-x-0 font-mono text-[11px] text-white/50 bg-void border border-white/15 rounded-full px-3 py-1 whitespace-nowrap">
-              open to work · aug 2026
+              open to IT & software roles
             </div>
           </div>
         </div>

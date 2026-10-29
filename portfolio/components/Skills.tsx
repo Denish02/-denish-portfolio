@@ -1,17 +1,21 @@
 import Reveal from "./Reveal";
 
-const TIERS = [
+const GROUPS = [
   {
-    label: "Advanced",
-    items: ["HTML", "CSS", "PHP", "IoT Sensor Integration", "Microcontroller Programming", "Data Visualisation"],
+    label: "Programming",
+    items: ["Python", "PHP", "JavaScript", "HTML", "CSS", "SQL", "Ruby on Rails", "C++", "Kotlin", "Java", "C#"],
   },
   {
-    label: "Intermediate",
-    items: ["Python", "JavaScript", "MySQL", "Database Design", "UI/UX Design", "Figma", "Java", "C++", "MIT App Inventor"],
+    label: "Databases & data",
+    items: ["MySQL", "PostgreSQL", "SQLite", "Database Design", "DBeaver", "Excel Data Cleaning", "Pivot Tables", "Power BI (basic)"],
   },
   {
-    label: "Basic",
-    items: ["C#", "Ruby on Rails", "Power BI", "SQLite", "AR/VR Development", "Cisco Packet Tracer", "Android Studio", "Linux", "Huawei Cloud", "Unity", "DBeaver"],
+    label: "Testing & delivery",
+    items: ["Unit Testing", "Integration Testing", "System Testing", "UAT Documentation", "Git", "GitHub", "Docker", "CI/CD"],
+  },
+  {
+    label: "Design & other tools",
+    items: ["Figma", "UI/UX Design", "MIT App Inventor", "IoT Sensors", "Microcontrollers", "OpenGL", "Unity", "Android Studio", "Linux (basic)", "Cisco Packet Tracer (basic)"],
   },
 ];
 
@@ -24,14 +28,14 @@ export default function Skills() {
         <Reveal>
           <p className="font-mono text-[13px] text-accent mb-4">Stack</p>
           <h2 className="font-display font-semibold tracking-tighter text-[32px] md:text-[40px] leading-[1.1] max-w-[18ch]">
-            Proficiency, by how much I've shipped with it.
+            Tools and practices across my work.
           </h2>
         </Reveal>
 
         <div className="mt-14 border-t border-hairlineDark">
-          {TIERS.map((tier, i) => (
+          {GROUPS.map((tier, i) => (
             <Reveal key={tier.label} delay={i * 80}>
-              <div className="grid md:grid-cols-[160px_1fr] gap-4 md:gap-8 py-7 border-b border-hairlineDark items-baseline">
+              <div className="grid md:grid-cols-[180px_1fr] gap-4 md:gap-8 py-7 border-b border-hairlineDark items-baseline">
                 <p className="font-mono text-[13px] text-white/50">{tier.label}</p>
                 <div className="flex flex-wrap gap-x-3 gap-y-2">
                   {tier.items.map((item) => (

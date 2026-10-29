@@ -3,13 +3,14 @@ import Reveal from "./Reveal";
 const ROLES = [
   {
     period: "Mar 2026 — Aug 2026",
-    title: "Software Engineering Intern",
+    title: "Software Development Intern",
     org: "ST Datablu · Kota Kinabalu (On-site)",
     bullets: [
-      "Developed and enhanced full-stack web applications: backend APIs, frontend interfaces, and system modules for authentication, role management, receipts, and reporting.",
-      "Designed responsive UI components and prototypes in Figma, improving usability across multiple enterprise systems.",
-      "Ran system analysis, requirement gathering, ERD design, documentation, and testing for government and enterprise projects, working directly with stakeholders.",
-      "Supported data preparation and technical documentation for digital transformation projects.",
+      "Developed password recovery, receipt, master data and role management features for Rural Tourism, connecting backend APIs to frontend interfaces.",
+      "Performed unit, integration and system testing; prepared IDS and RUTEC UAT forms, corrected application issues and supported user briefings and training.",
+      "Assisted with database extraction, Excel data cleaning, pivot-table reporting and master data validation; prepared SQL data quality training exercises for FAMA.",
+      "Configured Docker, MinIO, SMTP and CI/CD for MyJetti Resort and prepared technical handover notes.",
+      "Contributed to responsive UI and Figma prototypes, requirements gathering, ERD design and stakeholder documentation.",
     ],
   },
   {

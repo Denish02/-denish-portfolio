@@ -18,12 +18,12 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Mohamad Denish Jumad — Software Engineer",
   description:
-    "Software Engineering student building full-stack systems, DevSecOps pipelines, and interfaces that hold up under real use. Based in Kota Kinabalu, Sabah.",
+    "Software Engineering degree candidate graduating November 2026, with experience in application development, databases, testing and user training. Based in Kota Kinabalu, Sabah.",
   metadataBase: new URL("https://denish02.github.io/-denish-portfolio/"),
   openGraph: {
     title: "Mohamad Denish Jumad — Software Engineer",
     description:
-      "Software Engineering student building full-stack systems, DevSecOps pipelines, and interfaces that hold up under real use.",
+      "Explore application development, DevSecOps, mobile, IoT and graphics projects by Mohamad Denish Jumad, graduating November 2026.",
     type: "website",
   },
 };

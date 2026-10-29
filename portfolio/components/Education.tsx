@@ -1,10 +1,12 @@
 import Reveal from "./Reveal";
 
 const CERTS = [
+  { name: "Professional Agentic AI Engineering", org: "Nexperts Academy", date: "Aug 2026" },
   { name: "DevSecOps Foundation", org: "PeopleCert", date: "Jul 2026" },
+  { name: "Cybersecurity Essentials", org: "Cisco Networking Academy", date: "Jan 2026" },
   { name: "Data Analysis — Microsoft Power BI", org: "Microsoft", date: "Jul 2025" },
   { name: "Apple Teacher Certification", org: "Apple Education", date: "May 2025" },
-  { name: "CCNAv7: Introduction to Networks", org: "Cisco Network Academy", date: "Sep 2024" },
+  { name: "CCNAv7: Introduction to Networks", org: "Cisco Networking Academy", date: "Sep 2024" },
   { name: "HCIA-AI V3.5", org: "Huawei ICT Academy", date: "Jul 2024" },
 ];
 
@@ -22,15 +24,15 @@ export default function Education() {
               <p className="text-[15px] text-fog mt-1">
                 Bachelor of Computer Science (Hons.), Software Engineering
               </p>
-              <div className="flex items-baseline justify-between mt-5 pt-5 border-t border-hairline">
-                <span className="font-mono text-[12px] text-fog">Oct 2022 — Present</span>
-                <span className="font-mono text-[12px] text-accent">CGPA 3.52</span>
+              <div className="flex flex-wrap gap-3 items-baseline justify-between mt-5 pt-5 border-t border-hairline">
+                <span className="font-mono text-[12px] text-fog">Oct 2022 — Nov 2026 (expected)</span>
+                <span className="font-mono text-[12px] text-accent">CGPA 3.56</span>
               </div>
             </div>
             <div className="border border-hairline rounded-2xl p-8 bg-paper mt-5">
               <p className="text-[19px] font-medium text-ink">Labuan Matriculation College</p>
               <p className="text-[15px] text-fog mt-1">Certificate in Pure Science</p>
-              <div className="flex items-baseline justify-between mt-5 pt-5 border-t border-hairline">
+              <div className="flex flex-wrap gap-3 items-baseline justify-between mt-5 pt-5 border-t border-hairline">
                 <span className="font-mono text-[12px] text-fog">Aug 2020 — May 2022</span>
                 <span className="font-mono text-[12px] text-accent">CGPA 3.79</span>
               </div>
@@ -38,7 +40,7 @@ export default function Education() {
           </Reveal>
 
           <Reveal delay={120}>
-            <p className="font-mono text-[13px] text-accent mb-4">Certifications</p>
+            <p className="font-mono text-[13px] text-accent mb-4">Certifications & training</p>
             <ul className="border-t border-hairline">
               {CERTS.map((c) => (
                 <li

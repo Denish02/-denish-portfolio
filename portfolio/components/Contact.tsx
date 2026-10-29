@@ -17,7 +17,7 @@ export default function Contact() {
             Let's build something that has to work.
           </h2>
           <p className="mt-6 text-[17px] text-white/55 max-w-[48ch]">
-            Open to internships and software engineering roles. I reply fastest
+            Open to graduate IT and software engineering roles. I reply fastest
             over email.
           </p>
         </Reveal>
@@ -33,7 +33,7 @@ export default function Contact() {
                 className="group flex items-center justify-between py-6 border-b border-white/10"
               >
                 <span className="font-mono text-[13px] text-white/40">{l.label}</span>
-                <span className="text-[16px] text-white/90 group-hover:text-accent transition-colors">
+                <span className="text-[14px] sm:text-[16px] text-right break-all text-white/90 group-hover:text-accent transition-colors">
                   {l.value}
                 </span>
               </a>
